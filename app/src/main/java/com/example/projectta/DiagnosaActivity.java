@@ -50,6 +50,9 @@ public class DiagnosaActivity extends AppCompatActivity {
                 if (Check1.isChecked() && Check2.isChecked() && Check3.isChecked()){
                     LetakKerusakan+= "\nBUSI";
                 }
+                if (Check4.isChecked() && Check5.isChecked() && Check6.isChecked() && Check7.isChecked()){
+                    LetakKerusakan+= "\nCVT";
+                }
 
                 // Tampilan hasil letak keruskan di textView
                 tv_letak_kerusakan.setText(""+LetakKerusakan);
