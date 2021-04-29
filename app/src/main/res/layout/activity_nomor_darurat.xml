@@ -7,10 +7,163 @@
     tools:context=".NomorDaruratActivity">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/tvnomordarurat"
-        android:text="nomor darurat"
-        android:textSize="20dp"/>
+        android:id="@+id/JudulNomdar"
+        android:text="DAFTAR NOMOR DARURAT REPUBLIK INDONESIA"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp"
+        android:layout_marginHorizontal="60dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/jdlLayananDarurat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/JudulNomdar"
+        android:layout_marginTop="45dp"
+        android:text="  Layanan Darurat"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nmrLayananDarurat"
+        android:layout_below="@+id/jdlLayananDarurat"
+        android:layout_marginTop="8dp"
+        android:text="   112"
+        android:textSize="19dp"/>
+    <Button
+        android:id="@+id/btn_nmrLayananDarurat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jdlLayananDarurat"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:text="HUBUNGI" />
+
+    <TextView
+        android:id="@+id/jdlPolisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nmrLayananDarurat"
+        android:layout_marginTop="35dp"
+        android:text="  Polisi"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/nmrPolisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jdlPolisi"
+        android:layout_marginTop="8dp"
+        android:text="   110"
+        android:textSize="19dp"/>
+    <Button
+        android:id="@+id/btn_nmrPolisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jdlPolisi"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:text="HUBUNGI" />
+
+    <TextView
+        android:id="@+id/jdlAmbulans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nmrPolisi"
+        android:layout_marginTop="35dp"
+        android:text="  Ambulans"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/nmrAmbulans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jdlAmbulans"
+        android:layout_marginTop="8dp"
+        android:text="   118"
+        android:textSize="19dp"/>
+    <Button
+        android:id="@+id/btn_nmrAmbulans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jdlAmbulans"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:text="HUBUNGI" />
+
+    <TextView
+        android:id="@+id/jdlPemadamKebakaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nmrAmbulans"
+        android:layout_marginTop="35dp"
+        android:text="  Pemadam Kebakaran"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/nmrPemadamKebakaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jdlPemadamKebakaran"
+        android:layout_marginTop="8dp"
+        android:text="   113"
+        android:textSize="19dp"/>
+    <Button
+        android:id="@+id/btn_nmrPemadamKebakaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jdlPemadamKebakaran"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:text="HUBUNGI" />
+
+    <TextView
+        android:id="@+id/jdlSAR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nmrPemadamKebakaran"
+        android:layout_marginTop="35dp"
+        android:text="  SAR"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/nmrSAR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jdlSAR"
+        android:layout_marginTop="8dp"
+        android:text="   115"
+        android:textSize="19dp"/>
+    <Button
+        android:id="@+id/btn_nmrSAR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jdlSAR"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:text="HUBUNGI" />
+
+
 
 </RelativeLayout>
