@@ -9,12 +9,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="APLIKASI PAKET LENGKAP BERKENDARA SEPEDA MOTOR"
+        android:text="APLIKASI KEBUTUHAN BERKENDARA SEPEDA MOTOR"
         android:layout_alignParentTop="true"
         android:layout_marginTop="65dp"
         android:layout_marginHorizontal="60dp"
         android:textAlignment="center"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
 
 
     <Button
@@ -22,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="175dp"
+        android:layout_marginTop="165dp"
         android:layout_marginBottom="451dp"
         android:layout_marginHorizontal="65dp"
         android:text="Diagnosa Kerusakan Motor Matic" />

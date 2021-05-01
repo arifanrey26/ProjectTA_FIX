@@ -21,6 +21,7 @@ public class DiagnosaActivity extends AppCompatActivity {
 
     Button btn_klik_diagnosa;
     TextView tv_letak_kerusakan;
+    TextView tv_solusi_kerusakan;
 
 
     @Override
@@ -38,24 +39,31 @@ public class DiagnosaActivity extends AppCompatActivity {
 
         btn_klik_diagnosa = (Button) findViewById(R.id.btn_klikdiagnosa);
         tv_letak_kerusakan = (TextView) findViewById(R.id.tv_letakkerusakan);
+        tv_solusi_kerusakan = (TextView) findViewById(R.id.tv_solusikerusakan);
 
         tv_letak_kerusakan.setText("");
+        tv_solusi_kerusakan.setText("");
 
         btn_klik_diagnosa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String LetakKerusakan = "Letak Kerusakan pada : ";
+                String SolusiKerusakan = "Solusinya yaitu : ";
 
                 //Output Kerusakan : a
                 if (Check1.isChecked() && Check2.isChecked() && Check3.isChecked()){
                     LetakKerusakan+= "\nBUSI";
+                    SolusiKerusakan+= "\nMengganti Busi Dengan Yang Baru";
+
                 }
                 if (Check4.isChecked() && Check5.isChecked() && Check6.isChecked() && Check7.isChecked()){
                     LetakKerusakan+= "\nCVT";
+                    SolusiKerusakan+= "\nPerbaiki Pada Mekanik/Ahlinya";
                 }
 
                 // Tampilan hasil letak keruskan di textView
                 tv_letak_kerusakan.setText(""+LetakKerusakan);
+                tv_solusi_kerusakan.setText(""+SolusiKerusakan);
             }
         });
     }

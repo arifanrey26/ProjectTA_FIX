@@ -3,26 +3,111 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:gravity="center"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".PerawatanActivity">
 
     <TextView
-        android:id="@+id/tvperawatan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="368dp"
-        android:text="Perawatan Motor" />
+        android:text="TIPS PERAWATAN SEPEDA MOTOR"
+        android:id="@+id/JudulPerawatan"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="60dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
 
-    <androidx.appcompat.widget.AppCompatSpinner
-        android:id="@+id/spinner"
+    <TextView
+        android:id="@+id/prwtn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="340dp"
-        android:spinnerMode="dropdown" />
+        android:layout_below="@+id/JudulPerawatan"
+        android:layout_marginTop="35dp"
+        android:text="  1. Rutin Panaskan Mesin Motor di Pagi Hari"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deskprwtn1"
+        android:layout_below="@+id/prwtn1"
+        android:layout_marginTop="5dp"
+        android:text="    Sebaiknya menggunakan kick starter saja supaya lebih menghemat aki motor."
+        android:textSize="19dp"/>
 
+    <TextView
+        android:id="@+id/prwtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deskprwtn1"
+        android:layout_marginTop="15dp"
+        android:text="  2. Ganti Oli Secara Berkala"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deskprwtn2"
+        android:layout_below="@+id/prwtn2"
+        android:layout_marginTop="5dp"
+        android:text="    Lakukan sesuai jadwal penggantian oli yang direkomendasikan mekanik. Biasanya setiap 1000 km maks. 5000km atau setiap 2 sampai 3 bulan sekali dan menggunakan oli sesuai spesifikasi motor anda."
+        android:textSize="19dp"/>
+
+    <TextView
+        android:id="@+id/prwtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deskprwtn2"
+        android:layout_marginTop="15dp"
+        android:text="  3. Servis Rutin di Bengkel"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deskprwtn3"
+        android:layout_below="@+id/prwtn3"
+        android:layout_marginTop="5dp"
+        android:text="    Lakukan servis berkala kurang lebih 3 bulan sekali untuk menjaga performa motor anda."
+        android:textSize="19dp"/>
+
+    <TextView
+        android:id="@+id/prwtn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deskprwtn3"
+        android:layout_marginTop="15dp"
+        android:text="  4. Gunakan Bensin Berkualitas"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deskprwtn4"
+        android:layout_below="@+id/prwtn4"
+        android:layout_marginTop="5dp"
+        android:text="    Tak jarang saja ada orang yang menjual bensin campuran, maka dari itu berhati-hati dan penting untuk membeli bensin yang sesuai dengan oktan motor anda."
+        android:textSize="19dp"/>
+
+    <TextView
+        android:id="@+id/prwtn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deskprwtn4"
+        android:layout_marginTop="15dp"
+        android:text="  5. Jangan Kehabisan Bensin"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deskprwtn5"
+        android:layout_below="@+id/prwtn5"
+        android:layout_marginTop="5dp"
+        android:text="    Hal ini untuk menghindari terjadinya keausan pada mesin."
+        android:textSize="19dp"/>
 
 </RelativeLayout>

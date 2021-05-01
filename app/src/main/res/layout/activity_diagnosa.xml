@@ -19,7 +19,8 @@
          android:layout_height="wrap_content"
          android:id="@+id/checkBox"
          android:onClick="onCheckboxClicked"
-         android:text="1"/>
+         android:text="1"
+         android:layout_marginTop="20sp"/>
 
      <CheckBox
             android:layout_width="match_parent"
@@ -64,7 +65,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/btn_klikdiagnosa"
         android:text="DIAGNOSA KERUSAKAN"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:textStyle="bold"/>
 
     <TextView
@@ -74,8 +75,19 @@
         android:text="LETAK KERUSAKAN"
         android:textAlignment="center"
         android:gravity="center_horizontal"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textSize="21sp"
+        android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_solusikerusakan"
+            android:text="SOLUSI"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textSize="21sp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"/>
 
     </LinearLayout>
 </ScrollView>
