@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BukuPasal"></activity>
+        <activity android:name=".BukuRambu"></activity>
+        <activity android:name=".BukuPasal" />
         <activity android:name=".NomorDaruratActivity" />
         <activity android:name=".RambuActivity" />
         <activity android:name=".PasalpasalActivity" />

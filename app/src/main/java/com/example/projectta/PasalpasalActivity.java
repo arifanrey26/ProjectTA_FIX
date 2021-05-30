@@ -16,15 +16,15 @@ public class PasalpasalActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pasalpasal);
 
-    btn_bukupasal = (Button) findViewById(R.id.btn_pasal);
+        btn_bukupasal = findViewById(R.id.btn_pasal_pasal);
 
-    btn_bukupasal.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
+        btn_bukupasal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
-            Intent intent= new Intent(PasalpasalActivity.this,BukuPasal.class);
-            startActivity(intent);
-        }
-    });
+                Intent intent = new Intent(PasalpasalActivity.this, BukuPasal.class);
+                startActivity(intent);
+            }
+        });
     }
 }

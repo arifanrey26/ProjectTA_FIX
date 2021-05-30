@@ -40,19 +40,22 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, PasalpasalActivity.class);
-                startActivity(intent); }
+                startActivity(intent);
+            }
         });
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, RambuActivity.class);
-                startActivity(intent); }
+                startActivity(intent);
+            }
         });
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, NomorDaruratActivity.class);
-                startActivity(intent); }
+                startActivity(intent);
+            }
         });
 
     }

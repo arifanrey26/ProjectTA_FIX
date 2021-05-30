@@ -4,13 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".RambuActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tvrambu"
-        android:text="Rambu Lalu Lintas"
-        android:textSize="20dp"/>
+        android:id="@+id/tvrambu1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="368dp"
+        android:text="Rambu - rambu lalu lintas"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btn_rambu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvrambu1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="-270dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginRight="175dp"
+        android:gravity="center_horizontal"
+        android:text="Buka"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
 
 </RelativeLayout>
