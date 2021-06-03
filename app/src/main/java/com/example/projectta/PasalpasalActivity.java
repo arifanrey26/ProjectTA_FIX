@@ -7,24 +7,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.github.barteksc.pdfviewer.PDFView;
+
 public class PasalpasalActivity extends AppCompatActivity {
 
-    Button btn_bukupasal;
+    PDFView pdf_pasalpasal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pasalpasal);
 
-        btn_bukupasal = findViewById(R.id.btn_pasal_pasal);
+        pdf_pasalpasal = (PDFView) findViewById(R.id.pdfPasal);
 
-        btn_bukupasal.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent intent = new Intent(PasalpasalActivity.this, BukuPasal.class);
-                startActivity(intent);
-            }
-        });
+        pdf_pasalpasal.fromAsset("uu_no_22_tahun_2009.pdf").load();
     }
 }

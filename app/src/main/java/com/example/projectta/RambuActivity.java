@@ -7,24 +7,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.github.barteksc.pdfviewer.PDFView;
+
 public class RambuActivity extends AppCompatActivity {
 
-    Button btn_bukurambu;
+    PDFView pdf_rambu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rambu);
 
-        btn_bukurambu = findViewById(R.id.btn_rambu);
+        pdf_rambu = (PDFView) findViewById(R.id.pdfRambu);
 
-        btn_bukurambu.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent intent = new Intent(RambuActivity.this, BukuRambu.class);
-                startActivity(intent);
-            }
-        });
+        pdf_rambu.fromAsset("rambu-rambu.pdf").load();
     }
 }
