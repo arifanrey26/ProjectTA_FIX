@@ -46,7 +46,8 @@
         android:layout_marginTop="-20dp"
         android:layout_marginEnd="46dp"
         android:layout_marginRight="46dp"
-        android:text="HUBUNGI" />
+        android:text="HUBUNGI"
+        android:backgroundTint="#03A9F4"/>
 
     <TextView
         android:id="@+id/jdlPolisi"
@@ -75,7 +76,8 @@
         android:layout_marginTop="-20dp"
         android:layout_marginEnd="46dp"
         android:layout_marginRight="46dp"
-        android:text="HUBUNGI" />
+        android:text="HUBUNGI"
+        android:backgroundTint="#03A9F4"/>
 
     <TextView
         android:id="@+id/jdlAmbulans"
@@ -104,7 +106,8 @@
         android:layout_marginTop="-20dp"
         android:layout_marginEnd="46dp"
         android:layout_marginRight="46dp"
-        android:text="HUBUNGI" />
+        android:text="HUBUNGI"
+        android:backgroundTint="#03A9F4"/>
 
     <TextView
         android:id="@+id/jdlPemadamKebakaran"
@@ -133,7 +136,8 @@
         android:layout_marginTop="-20dp"
         android:layout_marginEnd="46dp"
         android:layout_marginRight="46dp"
-        android:text="HUBUNGI" />
+        android:text="HUBUNGI"
+        android:backgroundTint="#03A9F4"/>
 
     <TextView
         android:id="@+id/jdlSAR"
@@ -162,7 +166,8 @@
         android:layout_marginTop="-20dp"
         android:layout_marginEnd="46dp"
         android:layout_marginRight="46dp"
-        android:text="HUBUNGI" />
+        android:text="HUBUNGI"
+        android:backgroundTint="#03A9F4"/>
 
 
 
