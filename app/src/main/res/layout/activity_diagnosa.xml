@@ -19,7 +19,7 @@
          android:layout_height="wrap_content"
          android:id="@+id/checkBox"
          android:onClick="onCheckboxClicked"
-         android:text="1"
+         android:text="Di stater manual sulit"
          android:layout_marginTop="20sp"/>
 
      <CheckBox
@@ -27,40 +27,100 @@
             android:layout_height="wrap_content"
             android:onClick="onCheckboxClicked"
             android:id="@+id/checkBox2"
-            android:text="2"/>
+            android:text="Suara knalpot sering meletus-letus"/>
 
      <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onCheckboxClicked"
             android:id="@+id/checkBox3"
-            android:text="3"/>
+            android:text="Tarikan berat"/>
      <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onCheckboxClicked"
             android:id="@+id/checkBox4"
-            android:text="4"/>
+            android:text="Keluar asap hitam pada knalpot"/>
      <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onCheckboxClicked"
             android:id="@+id/checkBox5"
-            android:text="5"/>
+            android:text="Distater listrik tidak bisa"/>
      <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onCheckboxClicked"
             android:id="@+id/checkBox6"
-            android:text="6"/>
+            android:text="Klakson tidak bunyi"/>
      <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onCheckboxClicked"
             android:id="@+id/checkBox7"
-            android:text="7"/>
+            android:text="Reating dan lampu tidak bekerja"/>
+     <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:id="@+id/checkBox8"
+            android:text="Kelistrikan mati"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:id="@+id/checkBox9"
+            android:text="Mesin mudah panas"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:id="@+id/checkBox10"
+            android:text="Bahan bakar boros"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:id="@+id/checkBox11"
+            android:text="Bunyi gemelistik pada mesin"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:id="@+id/checkBox12"
+            android:text="Suara mesin kasar"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:id="@+id/checkBox13"
+            android:text="Kecepatan tidak optimal"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:id="@+id/checkBox14"
+            android:text="Bunyi kasar saat jalan pelan"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:id="@+id/checkBox15"
+            android:text="Kampas rem lambat"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:id="@+id/checkBox16"
+            android:text="Lari mrebet-mrebet"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:id="@+id/checkBox17"
+            android:text="Motor mati (tidak bisa hidup sama sekali)"/>
 
-    <Button
+        <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btn_klikdiagnosa"
