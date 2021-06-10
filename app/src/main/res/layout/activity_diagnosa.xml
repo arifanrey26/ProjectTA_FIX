@@ -17,18 +17,16 @@
      <CheckBox
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:id="@+id/checkBox"
+         android:id="@+id/checkBox1"
          android:onClick="onCheckboxClicked"
          android:text="Di stater manual sulit"
          android:layout_marginTop="20sp"/>
-
      <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onCheckboxClicked"
             android:id="@+id/checkBox2"
             android:text="Suara knalpot sering meletus-letus"/>
-
      <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -82,7 +80,7 @@
             android:layout_height="wrap_content"
             android:onClick="onCheckboxClicked"
             android:id="@+id/checkBox11"
-            android:text="Bunyi gemelistik pada mesin"/>
+            android:text="Bunyi gemelitik pada mesin"/>
         <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -107,18 +105,6 @@
             android:onClick="onCheckboxClicked"
             android:id="@+id/checkBox15"
             android:text="Kampas rem lambat"/>
-        <CheckBox
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="onCheckboxClicked"
-            android:id="@+id/checkBox16"
-            android:text="Lari mrebet-mrebet"/>
-        <CheckBox
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="onCheckboxClicked"
-            android:id="@+id/checkBox17"
-            android:text="Motor mati (tidak bisa hidup sama sekali)"/>
 
         <Button
         android:layout_width="match_parent"

@@ -25,9 +25,7 @@ public class DiagnosaActivity extends AppCompatActivity {
             Check12,
             Check13,
             Check14,
-            Check15,
-            Check16,
-            Check17;
+            Check15;
 
     Button btn_klik_diagnosa;
     TextView tv_letak_kerusakan;
@@ -39,7 +37,7 @@ public class DiagnosaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_diagnosa);
 
-        Check1 = (CheckBox) findViewById(R.id.checkBox);
+        Check1 = (CheckBox) findViewById(R.id.checkBox1);
         Check2 = (CheckBox) findViewById(R.id.checkBox2);
         Check3 = (CheckBox) findViewById(R.id.checkBox3);
         Check4 = (CheckBox) findViewById(R.id.checkBox4);
@@ -54,8 +52,6 @@ public class DiagnosaActivity extends AppCompatActivity {
         Check13 = (CheckBox) findViewById(R.id.checkBox13);
         Check14 = (CheckBox) findViewById(R.id.checkBox14);
         Check15 = (CheckBox) findViewById(R.id.checkBox15);
-        Check16 = (CheckBox) findViewById(R.id.checkBox16);
-        Check17 = (CheckBox) findViewById(R.id.checkBox17);
 
         btn_klik_diagnosa = (Button) findViewById(R.id.btn_klikdiagnosa);
         tv_letak_kerusakan = (TextView) findViewById(R.id.tv_letakkerusakan);
@@ -73,31 +69,27 @@ public class DiagnosaActivity extends AppCompatActivity {
                 //Output Kerusakan : a
                 if (Check1.isChecked() && Check2.isChecked() && Check3.isChecked() && Check4.isChecked()){
                     LetakKerusakan+= "\nBUSI";
-                    SolusiKerusakan+= "\nMengganti Busi Dengan Yang Baru";
+                    SolusiKerusakan+= "\nGanti Dengan Yang Baru";
                 }
                 if (Check5.isChecked() && Check6.isChecked() && Check7.isChecked() && Check8.isChecked()){
-                    LetakKerusakan+= "\nAcu";
-                    SolusiKerusakan+= "\nPerbaiki Pada Mekanik/Ahlinya";
+                    LetakKerusakan+= "\nECU/AKI";
+                    SolusiKerusakan+= "\nGanti Dengan Yang Baru";
                 }
-                if (Check2.isChecked() && Check9.isChecked()){
-                    LetakKerusakan+= "\nCelah Klep";
-                    SolusiKerusakan+= "\nPerbaiki Pada Mekanik/Ahlinya";
+                if (Check3.isChecked() && Check9.isChecked()){
+                    LetakKerusakan+= "\nCELAH KLEP";
+                    SolusiKerusakan+= "\nSetel Klep / Skir Klep";
                 }
                 if (Check5.isChecked() && Check1.isChecked() && Check3.isChecked() && Check10.isChecked()){
-                    LetakKerusakan+= "\nInjector";
-                    SolusiKerusakan+= "\nPerbaiki Pada Mekanik/Ahlinya";
+                    LetakKerusakan+= "\nINJECTOR";
+                    SolusiKerusakan+= "\nDibersihkan Karna Kotor / Rotak Lemah Harus Ganti Baru";
                 }
-                if (Check1.isChecked() && Check3.isChecked() && Check11.isChecked() && Check12.isChecked() && Check13.isChecked()){
-                    LetakKerusakan+= "\nRoller";
-                    SolusiKerusakan+= "\nPerbaiki Pada Mekanik/Ahlinya";
+                if (Check3.isChecked() && Check11.isChecked() && Check12.isChecked() && Check13.isChecked()){
+                    LetakKerusakan+= "\nROLLER";
+                    SolusiKerusakan+= "\nGanti Dengan Yang Baru";
                 }
-                if (Check3.isChecked() && Check15.isChecked()){
+                if (Check3.isChecked() && Check14.isChecked() && Check15.isChecked()){
                     LetakKerusakan+= "\nCVT";
-                    SolusiKerusakan+= "\nPerbaiki Pada Mekanik/Ahlinya";
-                }
-                if (Check16.isChecked() && Check17.isChecked()){
-                    LetakKerusakan+= "\nRoller";
-                    SolusiKerusakan+= "\nPerbaiki Pada Mekanik/Ahlinya";
+                    SolusiKerusakan+= "\nGanti Dengan Yang Baru";
                 }
 
                 // Tampilan hasil letak keruskan di textView
@@ -112,7 +104,7 @@ public class DiagnosaActivity extends AppCompatActivity {
             String string="";
 
             switch (view.getId()) {
-                case R.id.checkBox:
+                case R.id.checkBox1:
                     string = checked?"Gejala 1 Diseleksi":"Gejala 1 Tidak Diseleksi";
                     break;
                 case R.id.checkBox2:
@@ -156,12 +148,6 @@ public class DiagnosaActivity extends AppCompatActivity {
                     break;
                 case R.id.checkBox15:
                     string = checked?"Gejala 15 Diseleksi":"Gejala 15 Tidak Diseleksi";
-                    break;
-                case R.id.checkBox16:
-                    string = checked?"Gejala 16 Diseleksi":"Gejala 16 Tidak Diseleksi";
-                    break;
-                case R.id.checkBox17:
-                    string = checked?"Gejala 17 Diseleksi":"Gejala 17 Tidak Diseleksi";
                     break;
             }
 
