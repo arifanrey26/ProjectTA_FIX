@@ -2,6 +2,7 @@ package com.example.projectta;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -16,6 +17,8 @@ public class EdukasiActivity extends AppCompatActivity {
     Button putarvideo;
     MediaController mediaController;
 
+    Button btn_Bookpdf;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +27,16 @@ public class EdukasiActivity extends AppCompatActivity {
         videoView = (VideoView)findViewById(R.id.videoView);
         putarvideo = (Button)findViewById(R.id.btn_PutarVideo);
         mediaController = new MediaController(this);
+
+        btn_Bookpdf = (Button)findViewById(R.id.btn_PslPelanggaran);
+
+        btn_Bookpdf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(EdukasiActivity.this,PasalPelanggaranActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     public void PutarVideo(View view){
