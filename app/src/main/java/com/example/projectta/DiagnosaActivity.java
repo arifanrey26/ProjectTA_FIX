@@ -67,21 +67,33 @@ public class DiagnosaActivity extends AppCompatActivity {
                 String SolusiKerusakan = "Solusinya yaitu : ";
 
                 //Output Kerusakan : a
+                if (Check1.isChecked()){
+                    LetakKerusakan+= "\nBUSI";
+                    SolusiKerusakan+= "\nGanti Dengan Yang Baru";
+                }
+                if (Check3.isChecked()){
+                    LetakKerusakan+= "\nBUSI";
+                    SolusiKerusakan+= "\nGanti Dengan Yang Baru";
+                }
+                if (Check5.isChecked()){
+                    LetakKerusakan+= "\nECU(AKI)";
+                    SolusiKerusakan+= "\nGanti Dengan Yang Baru";
+                }
                 if (Check1.isChecked() && Check2.isChecked() && Check3.isChecked() && Check4.isChecked()){
                     LetakKerusakan+= "\nBUSI";
                     SolusiKerusakan+= "\nGanti Dengan Yang Baru";
                 }
                 if (Check5.isChecked() && Check6.isChecked() && Check7.isChecked() && Check8.isChecked()){
-                    LetakKerusakan+= "\nECU/AKI";
+                    LetakKerusakan+= "\nECU(AKI)";
                     SolusiKerusakan+= "\nGanti Dengan Yang Baru";
                 }
                 if (Check3.isChecked() && Check9.isChecked()){
                     LetakKerusakan+= "\nCELAH KLEP";
-                    SolusiKerusakan+= "\nSetel Klep / Skir Klep";
+                    SolusiKerusakan+= "\nSetel Klep, lebih baik jika konsultasi terlebih dulu pada mekanik";
                 }
-                if (Check5.isChecked() && Check1.isChecked() && Check3.isChecked() && Check10.isChecked()){
+                if (Check1.isChecked() && Check3.isChecked() && Check5.isChecked() && Check10.isChecked()){
                     LetakKerusakan+= "\nINJECTOR";
-                    SolusiKerusakan+= "\nDibersihkan Karna Kotor / Rotak Lemah Harus Ganti Baru";
+                    SolusiKerusakan+= "\nDibersihkan Karna Kotor/Rotak Lemah Harus Ganti Baru";
                 }
                 if (Check3.isChecked() && Check11.isChecked() && Check12.isChecked() && Check13.isChecked()){
                     LetakKerusakan+= "\nROLLER";

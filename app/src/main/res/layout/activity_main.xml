@@ -28,19 +28,34 @@
         app:layout_constraintVertical_chainStyle="packed" />
 
     <Button
-        android:id="@+id/btn_diagnosa"
+        android:id="@+id/btn_edukasi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv_jdlAplikasi"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="42dp"
         android:backgroundTint="#F5F8F7"
+        android:text="Edukasi Berkendara Dengan Benar"
+        android:textSize="13.5dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_diagnosa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_jdlAplikasi" />
+
+    <Button
+        android:id="@+id/btn_diagnosa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_edukasi"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#F5F8F7"
         android:text="Diagnosa Kerusakan Motor Matic"
         android:textSize="13.5dp"
         app:layout_constraintBottom_toTopOf="@+id/btn_perawatan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_jdlAplikasi" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_edukasi" />
 
     <Button
         android:id="@+id/btn_perawatan"
@@ -65,7 +80,7 @@
         android:layout_below="@+id/btn_perawatan"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="20dp"
-        android:text="Pasal - Pasal Berlalu lintas"
+        android:text="Pasal - Pasal Lengkap Berlalu lintas"
         android:textSize="13.5dp"
         android:backgroundTint="#F5F8F7"
         app:layout_constraintBottom_toTopOf="@+id/btn_rambu"
