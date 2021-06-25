@@ -21,11 +21,7 @@ public class DiagnosaActivity extends AppCompatActivity {
             Check8,
             Check9,
             Check10,
-            Check11,
-            Check12,
-            Check13,
-            Check14,
-            Check15;
+            Check11;
 
     Button btn_klik_diagnosa;
     TextView tv_letak_kerusakan;
@@ -48,11 +44,6 @@ public class DiagnosaActivity extends AppCompatActivity {
         Check9 = (CheckBox) findViewById(R.id.checkBox9);
         Check10 = (CheckBox) findViewById(R.id.checkBox10);
         Check11 = (CheckBox) findViewById(R.id.checkBox11);
-        Check12 = (CheckBox) findViewById(R.id.checkBox12);
-        Check13 = (CheckBox) findViewById(R.id.checkBox13);
-        Check14 = (CheckBox) findViewById(R.id.checkBox14);
-        Check15 = (CheckBox) findViewById(R.id.checkBox15);
-
         btn_klik_diagnosa = (Button) findViewById(R.id.btn_klikdiagnosa);
         tv_letak_kerusakan = (TextView) findViewById(R.id.tv_letakkerusakan);
         tv_solusi_kerusakan = (TextView) findViewById(R.id.tv_solusikerusakan);
@@ -68,40 +59,92 @@ public class DiagnosaActivity extends AppCompatActivity {
 
                 //Output Kerusakan : a
                 if (Check1.isChecked()){
+                    LetakKerusakan+= "\n BUSI,CELAH KLEP,INJECTOR,ROLLER,CVT";
+                    SolusiKerusakan+= "\nKonsultasikan pada Mekanik/ganti dengan yang baru";
+                }
+                if (Check2.isChecked()){
                     LetakKerusakan+= "\nBUSI";
-                    SolusiKerusakan+= "\nGanti Dengan Yang Baru";
+                    SolusiKerusakan+= "\nGanti dengan yang baru";
                 }
                 if (Check3.isChecked()){
+                    LetakKerusakan+= "\nINJECTOR";
+                    SolusiKerusakan+= "\nDibersihkan karna kotor/Rotak lemah harus ganti baru";
+                }
+                if (Check4.isChecked()){
                     LetakKerusakan+= "\nBUSI";
-                    SolusiKerusakan+= "\nGanti Dengan Yang Baru";
+                    SolusiKerusakan+= "\nGanti dengan yang baru";
                 }
                 if (Check5.isChecked()){
-                    LetakKerusakan+= "\nECU(AKI)";
-                    SolusiKerusakan+= "\nGanti Dengan Yang Baru";
+                    LetakKerusakan+= "\nCelah Klep";
+                    SolusiKerusakan+= "\nSetel Klep, jika masih awam serahkan pada mekanik";
+                }
+                if (Check6.isChecked()){
+                    LetakKerusakan+= "\nINJECTOR";
+                    SolusiKerusakan+= "\nDibersihkan karna kotor/Rotak lemah harus ganti baru";
+                }
+                if (Check7.isChecked()){
+                    LetakKerusakan+= "\nROLLER";
+                    SolusiKerusakan+= "\nGanti dengan yang baru";
+                }
+                if (Check8.isChecked()){
+                    LetakKerusakan+= "\nROLLER";
+                    SolusiKerusakan+= "\nGanti dengan yang baru";
+                }
+                if (Check9.isChecked()){
+                    LetakKerusakan+= "\nROLLER";
+                    SolusiKerusakan+= "\nGanti dengan yang baru";
+                }
+                if (Check10.isChecked()){
+                    LetakKerusakan+= "\nCVT";
+                    SolusiKerusakan+= "\nGanti dengan yang baru";
+                }
+                if (Check11.isChecked()){
+                    LetakKerusakan+= "\nCVT";
+                    SolusiKerusakan+= "\nGanti dengan yang baru";
+                }
+                if (Check1.isChecked() && Check2.isChecked()){
+                    LetakKerusakan+= "\nBUSI";
+                    SolusiKerusakan+= "\nSetel Klep, lebih baik jika konsultasi terlebih dulu pada mekanik";
+                }
+                if (Check1.isChecked() && Check2.isChecked() && Check3.isChecked()){
+                    LetakKerusakan+= "\nBUSI";
+                    SolusiKerusakan+= "\nGanti dengan yang baru";
                 }
                 if (Check1.isChecked() && Check2.isChecked() && Check3.isChecked() && Check4.isChecked()){
                     LetakKerusakan+= "\nBUSI";
-                    SolusiKerusakan+= "\nGanti Dengan Yang Baru";
+                    SolusiKerusakan+= "\nGanti dengan yang baru";
                 }
-                if (Check5.isChecked() && Check6.isChecked() && Check7.isChecked() && Check8.isChecked()){
-                    LetakKerusakan+= "\nECU(AKI)";
-                    SolusiKerusakan+= "\nGanti Dengan Yang Baru";
-                }
-                if (Check3.isChecked() && Check9.isChecked()){
+                if (Check1.isChecked() && Check5.isChecked()){
                     LetakKerusakan+= "\nCELAH KLEP";
-                    SolusiKerusakan+= "\nSetel Klep, lebih baik jika konsultasi terlebih dulu pada mekanik";
+                    SolusiKerusakan+= "\nSetel Klep, jika masih awam serahkan pada mekanik";
                 }
-                if (Check1.isChecked() && Check3.isChecked() && Check5.isChecked() && Check10.isChecked()){
+                if (Check1.isChecked() && Check3.isChecked()){
+                    LetakKerusakan+= "\nBUSI,INJECTOR";
+                    SolusiKerusakan+= "\nBusi ganti dengan yang baru, Injector dibersihkan karna kotor/Rotak lemah harus ganti baru";
+                }
+                if (Check1.isChecked() && Check3.isChecked() && Check6.isChecked()){
                     LetakKerusakan+= "\nINJECTOR";
-                    SolusiKerusakan+= "\nDibersihkan Karna Kotor/Rotak Lemah Harus Ganti Baru";
+                    SolusiKerusakan+= "\nDibersihkan karna kotor/Rotak lemah harus ganti baru";
                 }
-                if (Check3.isChecked() && Check11.isChecked() && Check12.isChecked() && Check13.isChecked()){
+                if (Check1.isChecked() && Check7.isChecked()){
                     LetakKerusakan+= "\nROLLER";
-                    SolusiKerusakan+= "\nGanti Dengan Yang Baru";
+                    SolusiKerusakan+= "\nGanti dengan yang baru";
                 }
-                if (Check3.isChecked() && Check14.isChecked() && Check15.isChecked()){
+                if (Check1.isChecked() && Check7.isChecked() && Check8.isChecked()){
+                    LetakKerusakan+= "\nROLLER";
+                    SolusiKerusakan+= "\nGanti dengan yang baru";
+                }
+                if (Check1.isChecked() && Check7.isChecked() && Check8.isChecked() && Check9.isChecked()){
+                    LetakKerusakan+= "\nROLLER";
+                    SolusiKerusakan+= "\nGanti dengan yang baru";
+                }
+                if (Check1.isChecked() && Check10.isChecked()){
                     LetakKerusakan+= "\nCVT";
-                    SolusiKerusakan+= "\nGanti Dengan Yang Baru";
+                    SolusiKerusakan+= "\nGanti dengan yang baru";
+                }
+                if (Check1.isChecked() && Check10.isChecked() && Check11.isChecked()){
+                    LetakKerusakan+= "\nCVT";
+                    SolusiKerusakan+= "\nGanti dengan yang baru";
                 }
 
                 // Tampilan hasil letak keruskan di textView
@@ -148,18 +191,6 @@ public class DiagnosaActivity extends AppCompatActivity {
                     break;
                 case R.id.checkBox11:
                     string = checked?"Gejala 11 Diseleksi":"Gejala 11 Tidak Diseleksi";
-                    break;
-                case R.id.checkBox12:
-                    string = checked?"Gejala 12 Diseleksi":"Gejala 12 Tidak Diseleksi";
-                    break;
-                case R.id.checkBox13:
-                    string = checked?"Gejala 13 Diseleksi":"Gejala 13 Tidak Diseleksi";
-                    break;
-                case R.id.checkBox14:
-                    string = checked?"Gejala 14 Diseleksi":"Gejala 14 Tidak Diseleksi";
-                    break;
-                case R.id.checkBox15:
-                    string = checked?"Gejala 15 Diseleksi":"Gejala 15 Tidak Diseleksi";
                     break;
             }
 
