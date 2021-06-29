@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:padding="10dp"
+    tools:context=".RambuLaranganActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_lrg1"
+            android:layout_gravity="center"
+            android:src="@drawable/lrg1"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_lrg1"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Larangan Berjalan Terus, Wajib Berhenti Sesaat dan atau Melanjutkan Perjalanan Setelah Dipastikan Selamat dari Konflik Lalu Lintas dari Arah Lainnya"/>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

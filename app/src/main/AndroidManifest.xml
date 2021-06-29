@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.noActionBar">
+        <activity android:name=".RambuPetunjukActivity"></activity>
+        <activity android:name=".RambuPerintahActivity" />
+        <activity android:name=".RambuLaranganActivity" />
+        <activity android:name=".RambuPeringatanActivity" />
         <activity android:name=".PasalPelanggaranActivity" />
         <activity android:name=".EdukasiActivity" />
         <activity android:name=".NomorDaruratActivity" />
