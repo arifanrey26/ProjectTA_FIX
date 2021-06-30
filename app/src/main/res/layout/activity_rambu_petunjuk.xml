@@ -1,9 +1,242 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:padding="10dp"
     tools:context=".RambuPetunjukActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_ptnj1"
+            android:layout_gravity="center"
+            android:src="@drawable/ptnj1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_ptnj1"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Pendahulu Petunjuk Jurusan yang Menunjukkan Jurusan yang Dituju"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_ptnj2"
+            android:layout_gravity="center"
+            android:src="@drawable/ptnj2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_ptnj2"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Pendahulu Petunjuk Jurusan yang Menunjukkan Jarak Jurusan yang Dituju"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_ptnj3"
+            android:layout_gravity="center"
+            android:src="@drawable/ptnj3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_ptnj3"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Rambu Petunjuk Jurusan Khusus Lokasi dan Kawasan Wisata"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_ptnj4"
+            android:layout_gravity="center"
+            android:src="@drawable/ptnj4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_ptnj4"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Petunjuk Lokasi Bandar Udara"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_ptnj5"
+            android:layout_gravity="center"
+            android:src="@drawable/ptnj5"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_ptnj5"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Petunjuk Lokasi Tempat Pembuangan Sampah"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_ptnj6"
+            android:layout_gravity="center"
+            android:src="@drawable/ptnj6"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_ptnj6"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Petunjuk Lokasi Fasilitas Parkir"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_ptnj7"
+            android:layout_gravity="center"
+            android:src="@drawable/ptnj7"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_ptnj7"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Petunjuk Lokasi Tempat Berkumpul Darurat"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_ptnj8"
+            android:layout_gravity="center"
+            android:src="@drawable/ptnj8"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_ptnj8"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Petunjuk Lokasi Masjid"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_ptnj9"
+            android:layout_gravity="center"
+            android:src="@drawable/ptnj9"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_ptnj9"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Petunjuk Lokasi Balai Kesehatan, Puskesmas, Balai Pertolongan Pertama dan yang Sejenis"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_ptnj10"
+            android:layout_gravity="center"
+            android:src="@drawable/ptnj10"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_ptnj10"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Petunjuk Lokasi SPBU"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_ptnj11"
+            android:layout_gravity="center"
+            android:src="@drawable/ptnj11"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_ptnj11"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Petunjuk Lokasi Penginapan"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_ptnj12"
+            android:layout_gravity="center"
+            android:src="@drawable/ptnj12"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_ptnj12"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Petunjuk Lokasi Putar Balik"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_ptnj13"
+            android:layout_gravity="center"
+            android:src="@drawable/ptnj13"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_ptnj13"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Petunjuk Awal Bagian Jalan untuk Kendaraan Bermotor"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_ptnj14"
+            android:layout_gravity="center"
+            android:src="@drawable/ptnj14"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_ptnj14"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Petunjuk Akhir Bagian Jalan untuk Kendaraan Bermotor"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

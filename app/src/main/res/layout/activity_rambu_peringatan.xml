@@ -1,9 +1,290 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:padding="10dp"
     tools:context=".RambuPeringatanActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_prgtn1"
+            android:layout_gravity="center"
+            android:src="@drawable/prgtn1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prgtn1"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Peringatan Penyempitan Badan Jalan di Bagian Kiri dan Kanan"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_prgtn2"
+            android:layout_gravity="center"
+            android:src="@drawable/prgtn2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prgtn2"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Peringatan Jembatan Peringatan Penyempitan Bagan Jalinan Jalan Tertentu"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_prgtn3"
+            android:layout_gravity="center"
+            android:src="@drawable/prgtn3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prgtn3"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Peringatan Permukaan Jalan yang Licin"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_prgtn4"
+            android:layout_gravity="center"
+            android:src="@drawable/prgtn4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prgtn4"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Peringatan Telah Terjadi Longsor pada Sebelah Kiri Sisi Jalan"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_prgtn5"
+            android:layout_gravity="center"
+            android:src="@drawable/prgtn5"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prgtn5"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Peringatan Banyak Lalu Lintas Pejalan Kaki"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_prgtn6"
+            android:layout_gravity="center"
+            android:src="@drawable/prgtn6"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prgtn6"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Peringatan Banyak Hewan Liar Melintas"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_prgtn7"
+            android:layout_gravity="center"
+            android:src="@drawable/prgtn7"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prgtn7"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Peringatan Pekerjaan di Jalan"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_prgtn8"
+            android:layout_gravity="center"
+            android:src="@drawable/prgtn8"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prgtn8"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Peringatan Tikungan ke Kiri"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_prgtn9"
+            android:layout_gravity="center"
+            android:src="@drawable/prgtn9"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prgtn9"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Peringatan Tikungan Tajam ke Kiri"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_prgtn10"
+            android:layout_gravity="center"
+            android:src="@drawable/prgtn10"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prgtn10"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Peringatan Banyak Tikungan dengan Tikungan Pertama ke Kiri"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_prgtn11"
+            android:layout_gravity="center"
+            android:src="@drawable/prgtn11"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prgtn11"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Peringatan Turunan Curam"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_prgtn12"
+            android:layout_gravity="center"
+            android:src="@drawable/prgtn12"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prgtn12"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Peringatan Tanjakan Curam"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_prgtn13"
+            android:layout_gravity="center"
+            android:src="@drawable/prgtn13"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prgtn13"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Peringatan Jurang"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_prgtn14"
+            android:layout_gravity="center"
+            android:src="@drawable/prgtn14"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prgtn14"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Peringatan Permukaan Jalan yang Cekung atau Berlubang"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_prgtn15"
+            android:layout_gravity="center"
+            android:src="@drawable/prgtn15"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prgtn15"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Peringatan Alat Pemberi Isyarat Lalu Lintas"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_prgtn16"
+            android:layout_gravity="center"
+            android:src="@drawable/prgtn16"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prgtn16"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Peringatan Kawasan Rawan Bencana Tsunami"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_prgtn17"
+            android:layout_gravity="center"
+            android:src="@drawable/prgtn17"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prgtn17"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Peringatan Pintu Perlintasan Sebidang Kereta Api"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -19,8 +19,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/tv_lrg1"
             android:layout_gravity="center"
-            android:src="@drawable/lrg1"
-            android:layout_marginTop="10dp"/>
+            android:src="@drawable/lrg1"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -30,9 +29,149 @@
             android:layout_marginTop="5dp"
             android:text="Larangan Berjalan Terus, Wajib Berhenti Sesaat dan atau Melanjutkan Perjalanan Setelah Dipastikan Selamat dari Konflik Lalu Lintas dari Arah Lainnya"/>
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_lrg2"
+            android:layout_gravity="center"
+            android:src="@drawable/lrg2"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_lrg2"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Larangan Masuk Bagi Kendaraan Bermotor dan Tidak Bermotor"/>
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_lrg3"
+            android:layout_gravity="center"
+            android:src="@drawable/lrg3"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_lrg3"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Larangan Masuk bagi Sepeda Motor"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_lrg4"
+            android:layout_gravity="center"
+            android:src="@drawable/lrg4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_lrg4"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Larangan Menjalankan Kendaraan dengan Kecepatan Lebih dari 40 km/jam"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_lrg5"
+            android:layout_gravity="center"
+            android:src="@drawable/lrg5"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_lrg5"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Larangan Berjalan Terus karena Wajib Memberi Prioritas Kepada Arus Lalu Lintas dari Arah yang Diberi Prioritas"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_lrg6"
+            android:layout_gravity="center"
+            android:src="@drawable/lrg6"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_lrg6"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Larangan Berhenti"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_lrg7"
+            android:layout_gravity="center"
+            android:src="@drawable/lrg7"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_lrg7"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Larangan Parkir"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_lrg8"
+            android:layout_gravity="center"
+            android:src="@drawable/lrg8"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_lrg8"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Larangan Belok Kiri"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_lrg9"
+            android:layout_gravity="center"
+            android:src="@drawable/lrg9"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_lrg9"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Larangan Memutar Balik"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_lrg10"
+            android:layout_gravity="center"
+            android:src="@drawable/lrg10"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_lrg10"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Larangan Membunyikan Isyarat Suara"/>
 
     </LinearLayout>
 

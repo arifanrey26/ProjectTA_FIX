@@ -1,9 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:padding="10dp"
     tools:context=".RambuPerintahActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_prt1"
+            android:layout_gravity="center"
+            android:src="@drawable/prt1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prt1"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Perintah Belok ke Arah Kiri"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_prt2"
+            android:layout_gravity="center"
+            android:src="@drawable/prt2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prt2"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Perintah Memasuki Jalur atau Lajur yang Ditunjuk"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_prt3"
+            android:layout_gravity="center"
+            android:src="@drawable/prt3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prt3"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Perintah Menggunakan Jalur atau Lajur Lalu Lintas Khusus Sepeda Motor"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_prt4"
+            android:layout_gravity="center"
+            android:src="@drawable/prt4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prt4"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Perintah Menggunakan Jalur atau Lajur Lalu Lintas Khusus Pejalan Kaki"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tv_prt5"
+            android:layout_gravity="center"
+            android:src="@drawable/prt5"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl_prt5"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Perintah Mengikuti Arah yang Ditunjukkan saat Memasuki Bundaran"/>
+
+
+    </LinearLayout>
+</ScrollView>
