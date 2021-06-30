@@ -8,9 +8,51 @@
     android:orientation="vertical"
     tools:context=".RambuActivity">
 
-    <com.github.barteksc.pdfviewer.PDFView
+    <Button
+        android:id="@+id/btn_jenislrg"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/pdfRambu"/>
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="#03A9F4"
+        android:text="Rambu Larangan"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/btn_jenisprgtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_jenislrg"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="55dp"
+        android:backgroundTint="#03A9F4"
+        android:text="Rambu Peringatan"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/btn_jenisptnj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_jenisprgtn"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="55dp"
+        android:backgroundTint="#03A9F4"
+        android:text="Rambu Petunjuk"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/btn_jenisprt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_jenisptnj"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="55dp"
+        android:backgroundTint="#03A9F4"
+        android:text="Rambu Perintah"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
 
 </RelativeLayout>
