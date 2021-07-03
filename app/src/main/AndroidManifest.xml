@@ -17,7 +17,6 @@
         <activity android:name=".EdukasiActivity" />
         <activity android:name=".NomorDaruratActivity" />
         <activity android:name=".RambuActivity" />
-        <activity android:name=".PasalpasalActivity" />
         <activity android:name=".PerawatanActivity" />
         <activity android:name=".DiagnosaActivity" />
         <activity android:name=".MainActivity">

@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btn1, btn2, btn3, btn4, btn5, btn6;
+    private Button btn1, btn2, btn3, btn4, btn5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,9 +19,8 @@ public class MainActivity extends AppCompatActivity {
         btn1 = findViewById(R.id.btn_edukasi);
         btn2 = findViewById(R.id.btn_diagnosa);
         btn3 = findViewById(R.id.btn_perawatan);
-        btn4 = findViewById(R.id.btn_pasal);
-        btn5 = findViewById(R.id.btn_rambu);
-        btn6 = findViewById(R.id.btn_nomordarurat);
+        btn4 = findViewById(R.id.btn_rambu);
+        btn5 = findViewById(R.id.btn_nomordarurat);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,18 +46,11 @@ public class MainActivity extends AppCompatActivity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, PasalpasalActivity.class);
-                startActivity(intent);
-            }
-        });
-        btn5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, RambuActivity.class);
                 startActivity(intent);
             }
         });
-        btn6.setOnClickListener(new View.OnClickListener() {
+        btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, NomorDaruratActivity.class);
