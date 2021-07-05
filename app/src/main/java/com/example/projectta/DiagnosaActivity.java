@@ -72,7 +72,7 @@ public class DiagnosaActivity extends AppCompatActivity {
                 getPilihanPengguna();
 
                 for (int i = 0; i < rules.size(); i++) { // ulangi tiap penyakit
-                    Log.d("TAG", "penyakit " + i + 1 + " ===============");
+                    Log.d("TAG", "kerusakan " + i + 1 + " ===============");
                     count = 0;
 
                     for (int j = 0; j < rules.get(i).size(); j++) { // ulangi tiap gejala pada enyakit
@@ -101,7 +101,7 @@ public class DiagnosaActivity extends AppCompatActivity {
                 }
 
                 for (int i = 0; i < rules.size(); i++) { // ulangi tiap penyakit
-                    Log.d("TAG", "penyakit " + i + 1 + " ===============");
+                    Log.d("TAG", "kerusakan " + i + 1 + " ===============");
                     count = 0;
 
                     for (int j = 0; j < rules.get(i).size(); j++) { // ulangi tiap gejala pada enyakit

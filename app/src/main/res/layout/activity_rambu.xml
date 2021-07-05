@@ -17,7 +17,7 @@
         android:backgroundTint="#03A9F4"
         android:text="Rambu Larangan"
         android:textStyle="bold"
-        android:textSize="18dp"/>
+        android:textSize="18sp"/>
 
     <Button
         android:id="@+id/btn_jenisprgtn"
@@ -29,7 +29,7 @@
         android:backgroundTint="#03A9F4"
         android:text="Rambu Peringatan"
         android:textStyle="bold"
-        android:textSize="18dp"/>
+        android:textSize="18sp"/>
 
     <Button
         android:id="@+id/btn_jenisptnj"
@@ -41,7 +41,7 @@
         android:backgroundTint="#03A9F4"
         android:text="Rambu Petunjuk"
         android:textStyle="bold"
-        android:textSize="18dp"/>
+        android:textSize="18sp"/>
 
     <Button
         android:id="@+id/btn_jenisprt"
@@ -53,6 +53,6 @@
         android:backgroundTint="#03A9F4"
         android:text="Rambu Perintah"
         android:textStyle="bold"
-        android:textSize="18dp"/>
+        android:textSize="18sp"/>
 
 </RelativeLayout>

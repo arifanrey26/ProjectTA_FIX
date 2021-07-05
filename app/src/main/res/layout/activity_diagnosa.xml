@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:onClick="onCheckboxClicked"
             android:id="@+id/checkBox4"
-            android:text="Keluar asap kehihitaman pada knalpot"/>
+            android:text="Keluar asap kehitaman pada knalpot"/>
         <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

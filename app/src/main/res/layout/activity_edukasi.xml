@@ -51,7 +51,7 @@
             android:text="1.	Setiap pengendara kendaraan bermotor yang tidak memiliki SIM dipidana dengan pidana kurungan paling lama 4 bulan atau denda paling banyak Rp. 1 juta (Pasal 281)."
             android:textSize="20sp"
             android:layout_marginTop="18dp"
-            android:layout_marginLeft="5dp"
+            android:layout_marginHorizontal="8dp"
             android:justificationMode="inter_word"/>
 
         <TextView
@@ -61,8 +61,7 @@
             android:text="2.	Setiap pengendara kendaraan bermotor yang memiliki SIM namun tak dapat menunjukkannya saat razia dipidana dengan pidana kurungan paling lama 1 bulan atau denda paling banyak Rp 250 ribu (Pasal 288 ayat 2)."
             android:textSize="20sp"
             android:layout_marginTop="15dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginHorizontal="5dp"
+            android:layout_marginHorizontal="8dp"
             android:justificationMode="inter_word"/>
 
         <TextView
@@ -70,9 +69,9 @@
             android:layout_height="wrap_content"
             android:id="@+id/tv_psl3"
             android:text="3.	Setiap pengendara kendaraan bermotor yang tak dipasangi Tanda Nomor Kendaraan dipidana dengan pidana kurungan paling lama 2 bulan atau denda paling banyak Rp 500 ribu (Pasal 280)."
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginTop="15dp"
-            android:layout_marginLeft="5dp"
+            android:layout_marginHorizontal="8dp"
             android:justificationMode="inter_word"/>
 
         <TextView
@@ -80,117 +79,130 @@
             android:layout_height="wrap_content"
             android:id="@+id/tv_psl4"
             android:text="4.	Setiap pengendara sepeda motor yang tidak memenuhi persyaratan teknis dan laik jalan seperti spion, lampu utama, lampu rem, klakson, pengukur kecepatan, dan knalpot dipidana dengan pidana kurungan paling lama 1 bulan atau denda paling banyak Rp 250 ribu (Pasal 285 ayat 1)."
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginTop="15dp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_marginHorizontal="8dp"
+            android:justificationMode="inter_word"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/tv_psl5"
             android:text="5.	Setiap pengendara yang melanggar rambu lalu lintas dipidana dengan pidana kurungan paling lama 2 bulan atau denda paling banyak Rp 500 ribu (Pasal 287 ayat 1)."
-            android:textSize="19dp"
+            android:textSize="19sp"
             android:layout_marginTop="15dp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_marginHorizontal="8dp"
+            android:justificationMode="inter_word"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/tv_psl6"
             android:text="6.	Setiap pengendara yang melanggar aturan batas kecepatan paling tinggi atau paling rendah dipidana dengan pidana kurungan paling lama 2 bulan atau denda paling banyak Rp 500 ribu (Pasal 287 ayat 5)."
-            android:textSize="19dp"
+            android:textSize="19sp"
             android:layout_marginTop="15dp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_marginHorizontal="8dp"
+            android:justificationMode="inter_word"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/tv_psl7"
             android:text="7.	Setiap pengendara yang tidak dilengkapi Surat Tanda Nomor Kendaraan Bermotor atau Surat Tanda Coba Kendaraan Bermotor dipidana dengan pidana kurungan paling lama 2 bulan atau denda paling banyak Rp 500 ribu (Pasal 288 ayat 1)."
-            android:textSize="19dp"
+            android:textSize="19sp"
             android:layout_marginTop="15dp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_marginHorizontal="8dp"
+            android:justificationMode="inter_word"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/tv_psl8"
             android:text="8.	Setiap pengendara atau penumpang sepeda motor yang tak mengenakan helm standar nasional dipidana dengan pidana kurungan paling lama 1 bulan atau denda paling banyak Rp 250 ribu (Pasal 291 ayat 1)."
-            android:textSize="19dp"
+            android:textSize="19sp"
             android:layout_marginTop="15dp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_marginHorizontal="8dp"
+            android:justificationMode="inter_word"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/tv_psl9"
             android:text="9.	Setiap orang yang mengemudikan Kendaraan Bermotor di Jalan tanpa menyalakan lampu utama pada malam hari dan kondisi tertentu sebagaimana dimaksud dalam Pasal 107 ayat (1) dipidana dengan pidana kurungan paling lama 1 (satu) bulan atau denda paling banyak Rp250.000,00 (dua ratus lima puluh ribu rupiah). (Pasal 293 ayat 1)."
-            android:textSize="19dp"
+            android:textSize="19sp"
             android:layout_marginTop="15dp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_marginHorizontal="8dp"
+            android:justificationMode="inter_word"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/tv_psl10"
             android:text="10.	Setiap orang yang mengemudikan Sepeda Motor di Jalan tanpa menyalakan lampu utama pada siang hari sebagaimana dimaksud dalam Pasal 107 ayat (2) dipidana dengan pidana kurungan paling lama 15 (lima belas) hari atau denda paling banyak Rp100.000,00 (seratus ribu rupiah). (Pasal 293 ayat 2)."
-            android:textSize="19dp"
+            android:textSize="19sp"
             android:layout_marginTop="15dp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_marginHorizontal="8dp"
+            android:justificationMode="inter_word"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/tv_psl11"
             android:text="11.	Setiap pengendara sepeda motor yang akan berbelok atau balik arah tanpa memberi isyarat lampu dipidana kurungan paling lama 1 bulan atau denda paling banyak Rp 250 ribu (Pasal 294)."
-            android:textSize="19dp"
+            android:textSize="19sp"
             android:layout_marginTop="15dp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_marginHorizontal="8dp"
+            android:justificationMode="inter_word"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/tv_psl12"
             android:text="12.	Setiap orang yang dengan sengaja mengemudikan Kendaraan Bermotor dengan cara atau keadaan yang membahayakan bagi nyawa atau barang dipidana dengan pidana penjara paling lama satu tahun atau denda paling banyak Rp 3 juta (Pasal 311 ayat 1)."
-            android:textSize="19dp"
+            android:textSize="19sp"
             android:layout_marginTop="15dp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_marginHorizontal="8dp"
+            android:justificationMode="inter_word"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/tv_psl13"
             android:text="13.	Dalam hal perbuatan sebagaimana dimaksud pada ayat (1) mengakibatkan Kecelakaan Lalu Lintas dengan kerusakan Kendaraan dan atau barang sebagaimana dimaksud dalam Pasal 229 ayat (2), pelaku dipidana dengan pidana penjara paling lama dua tahun atau denda paling banyak Rp 4 juta (Pasal 311 ayat 2)."
-            android:textSize="19dp"
+            android:textSize="19sp"
             android:layout_marginTop="15dp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_marginHorizontal="8dp"
+            android:justificationMode="inter_word"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/tv_psl14"
             android:text="14.	Dalam hal perbuatan sebagaimana dimaksud pada ayat (1) mengakibatkan Kecelakaan Lalu Lintas dengan korban luka ringan dan kerusakan Kendaraan dan/atau barang sebagaimana dimaksud dalam Pasal 229 ayat (3), pelaku dipidana dengan pidana penjara paling lama empat tahun atau denda paling banyak Rp 8 juta (Pasal 311 ayat 3)."
-            android:textSize="19dp"
+            android:textSize="19sp"
             android:layout_marginTop="15dp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_marginHorizontal="8dp"
+            android:justificationMode="inter_word"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/tv_psl15"
             android:text="15.	Dalam hal perbuatan sebagaimana dimaksud pada ayat (1) mengakibatkan Kecelakaan Lalu Lintas dengan korban luka berat sebagaimana dimaksud dalam Pasal 229 ayat (4), pelaku dipidana dengan pidana penjara paling lama 10 tahun atau denda paling banyak Rp 20 juta (Pasal 311 ayat 4)."
-            android:textSize="19dp"
+            android:textSize="19sp"
             android:layout_marginTop="15dp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_marginHorizontal="8dp"
+            android:justificationMode="inter_word"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/tv_psl16"
             android:text="16.	Dalam hal perbuatan sebagaimana dimaksud pada ayat (4) mengakibatkan orang lain meninggal dunia, pelaku dipidana dengan pidana penjara paling lama 12 tahun atau denda paling banyak Rp 24 juta (Pasal 311 ayat 5)."
-            android:textSize="19dp"
+            android:textSize="19sp"
             android:layout_marginTop="15dp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_marginHorizontal="8dp"
+            android:justificationMode="inter_word"/>
 
 
     </LinearLayout>
