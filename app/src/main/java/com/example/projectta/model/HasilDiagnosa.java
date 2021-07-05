@@ -37,7 +37,7 @@ public class HasilDiagnosa {
 
     @Override
     public String toString() {
-        return "\n\nNama Penyakit = " + namaPenyakit +
+        return "\n\nNama Kerusakan = " + namaPenyakit +
                 "\n  Solusi = " + solusi + "";
     }
 }

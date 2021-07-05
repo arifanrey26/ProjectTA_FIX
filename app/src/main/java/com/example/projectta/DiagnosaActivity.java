@@ -136,7 +136,7 @@ public class DiagnosaActivity extends AppCompatActivity {
                                 listHasil.add(new HasilDiagnosa("CELAH KLEP", count, "Setel Klep, jika masih awam serahkan pada mekanik"));
                                 break;
                             case 2:
-                                listHasil.add(new HasilDiagnosa("INJECTOR", count, "Dibersihkan karna kotor/Rotak lemah harus ganti baru"));
+                                listHasil.add(new HasilDiagnosa("INJECTOR", count, "Dibersihkan karna kotor/Jika Rotak lemah harus ganti baru"));
                                 break;
                             case 3:
                                 listHasil.add(new HasilDiagnosa("ROLLER", count, "Ganti dengan yang baru"));

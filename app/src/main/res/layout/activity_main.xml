@@ -34,12 +34,12 @@
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="52dp"
         android:backgroundTint="#F5F8F7"
-        android:text="Edukasi Berkendara Dengan Benar"
+        android:text="Edukasi Berkendara Sepeda Motor"
         android:textSize="13.5dp"
         app:layout_constraintBottom_toTopOf="@+id/btn_diagnosa"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_jdlAplikasi" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_jdlAplikasi"/>
 
     <Button
         android:id="@+id/btn_diagnosa"
