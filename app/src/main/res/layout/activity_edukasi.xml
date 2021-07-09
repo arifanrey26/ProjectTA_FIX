@@ -23,7 +23,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/btn_PutarVideo"
             android:onClick="PutarVideo"
-            android:text="putar video"/>
+            android:text="putar video"
+            android:backgroundTint="#03A9F4"/>
 
         <TextView
             android:layout_width="match_parent"
