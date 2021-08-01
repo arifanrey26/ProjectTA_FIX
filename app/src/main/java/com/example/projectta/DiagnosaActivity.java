@@ -2,6 +2,7 @@ package com.example.projectta;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -29,6 +30,7 @@ public class DiagnosaActivity extends AppCompatActivity {
             Check11;
 
     Button btn_klik_diagnosa;
+    Button btn_kosongkan;
     TextView tv_letak_kerusakan;
     TextView tv_solusi_kerusakan;
 
@@ -163,118 +165,15 @@ public class DiagnosaActivity extends AppCompatActivity {
 
                     tv_letak_kerusakan.setText(hasil);
                 }
-
-//                Log.d("TAG", "j: " + j + ", j: " + j);
-//                String jawaban = jawabanUser.get(i);
-//                String gejala = rules.get(j).get(j);
-//
-//                Log.d("TAG", "jawaban: " + jawaban + ", gejala dicek: " + gejala);
-//                if (jawaban.equals(gejala)) {
-//                    count++;
-//                    Log.d("TAG", "jawaban: " + jawaban + " == gejala: " + gejala);
-//                }
-//
-//                if (maxCount < count) {
-//                    maxCount = count;
-//                }
-//
-//                Log.d("TAG", "count: " + count + ", maxCount: " + maxCount);
-
-                //Output Kerusakan : a
-//                if (Check1.isChecked()){
-//                    LetakKerusakan+= "\n BUSI,CELAH KLEP,INJECTOR,ROLLER,CVT";
-//                    SolusiKerusakan+= "\nKonsultasikan pada Mekanik/ganti dengan yang baru";
-//                }
-//                if (Check2.isChecked()){
-//                    LetakKerusakan+= "\nBUSI";
-//                    SolusiKerusakan+= "\nGanti dengan yang baru";
-//                }
-//                if (Check3.isChecked()){
-//                    LetakKerusakan+= "\nBUSI dan INJECTOR";
-//                    SolusiKerusakan+= "\nBusi harus ganti baru dan Injector dibersihkan karna kotor/Rotak lemah harus ganti baru";
-//                }
-//                if (Check4.isChecked()){
-//                    LetakKerusakan+= "\nBUSI";
-//                    SolusiKerusakan+= "\nGanti dengan yang baru";
-//                }
-//                if (Check5.isChecked()){
-//                    LetakKerusakan+= "\nCelah Klep";
-//                    SolusiKerusakan+= "\nSetel Klep, jika masih awam serahkan pada mekanik";
-//                }
-//                if (Check6.isChecked()){
-//                    LetakKerusakan+= "\nINJECTOR";
-//                    SolusiKerusakan+= "\nDibersihkan karna kotor/Rotak lemah harus ganti baru";
-//                }
-//                if (Check7.isChecked()){
-//                    LetakKerusakan+= "\nROLLER";
-//                    SolusiKerusakan+= "\nGanti dengan yang baru";
-//                }
-//                if (Check8.isChecked()){
-//                    LetakKerusakan+= "\nROLLER";
-//                    SolusiKerusakan+= "\nGanti dengan yang baru";
-//                }
-//                if (Check9.isChecked()){
-//                    LetakKerusakan+= "\nROLLER";
-//                    SolusiKerusakan+= "\nGanti dengan yang baru";
-//                }
-//                if (Check10.isChecked()){
-//                    LetakKerusakan+= "\nCVT";
-//                    SolusiKerusakan+= "\nGanti dengan yang baru";
-//                }
-//                if (Check11.isChecked()){
-//                    LetakKerusakan+= "\nCVT";
-//                    SolusiKerusakan+= "\nGanti dengan yang baru";
-//                }
-//                if (Check1.isChecked() && Check2.isChecked()){
-//                    LetakKerusakan+= "\nBUSI";
-//                    SolusiKerusakan+= "\nSetel Klep, lebih baik jika konsultasi terlebih dulu pada mekanik";
-//                }
-//                if (Check1.isChecked() && Check2.isChecked() && Check3.isChecked()){
-//                    LetakKerusakan+= "\nBUSI";
-//                    SolusiKerusakan+= "\nGanti dengan yang baru";
-//                }
-//                if (Check1.isChecked() && Check2.isChecked() && Check3.isChecked() && Check4.isChecked()){
-//                    LetakKerusakan+= "\nBUSI";
-//                    SolusiKerusakan+= "\nGanti dengan yang baru";
-//                }
-//                if (Check1.isChecked() && Check5.isChecked()){
-//                    LetakKerusakan+= "\nCELAH KLEP";
-//                    SolusiKerusakan+= "\nSetel Klep, jika masih awam serahkan pada mekanik";
-//                }
-//                if (Check1.isChecked() && Check3.isChecked()){
-//                    LetakKerusakan+= "\nBUSI,INJECTOR";
-//                    SolusiKerusakan+= "\nBusi ganti dengan yang baru, Injector dibersihkan karna kotor/Rotak lemah harus ganti baru";
-//                }
-//                if (Check1.isChecked() && Check3.isChecked() && Check6.isChecked()){
-//                    LetakKerusakan+= "\nINJECTOR";
-//                    SolusiKerusakan+= "\nDibersihkan karna kotor/Rotak lemah harus ganti baru";
-//                }
-//                if (Check1.isChecked() && Check7.isChecked()){
-//                    LetakKerusakan+= "\nROLLER";
-//                    SolusiKerusakan+= "\nGanti dengan yang baru";
-//                }
-//                if (Check1.isChecked() && Check7.isChecked() && Check8.isChecked()){
-//                    LetakKerusakan+= "\nROLLER";
-//                    SolusiKerusakan+= "\nGanti dengan yang baru";
-//                }
-//                if (Check1.isChecked() && Check7.isChecked() && Check8.isChecked() && Check9.isChecked()){
-//                    LetakKerusakan+= "\nROLLER";
-//                    SolusiKerusakan+= "\nGanti dengan yang baru";
-//                }
-//                if (Check1.isChecked() && Check10.isChecked()){
-//                    LetakKerusakan+= "\nCVT";
-//                    SolusiKerusakan+= "\nGanti dengan yang baru";
-//                }
-//                if (Check1.isChecked() && Check10.isChecked() && Check11.isChecked()){
-//                    LetakKerusakan+= "\nCVT";
-//                    SolusiKerusakan+= "\nGanti dengan yang baru";
-//                }
-
-                // Tampilan hasil letak keruskan di textView
-//                tv_letak_kerusakan.setText(""+LetakKerusakan);
-//                tv_solusi_kerusakan.setText(""+SolusiKerusakan);
             }
         });
+    }
+
+    public void bersihkan (View view) {
+        Intent intent = getIntent();
+        finish();
+        startActivity(intent);
+        getPilihanPengguna();
     }
 
     private void setUpRule() {

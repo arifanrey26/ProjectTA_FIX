@@ -92,13 +92,23 @@
             android:text="Kinerja kampas rem lambat"/>
 
         <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn_klikdiagnosa"
-        android:text="DIAGNOSA KERUSAKAN"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:backgroundTint="#03A9F4"/>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_kosongkan"
+            android:text="kosongkan"
+            android:textSize="19sp"
+            android:layout_marginTop="10dp"
+            android:onClick="bersihkan"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_klikdiagnosa"
+            android:text="DIAGNOSA KERUSAKAN"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#03A9F4"/>
 
     <TextView
         android:layout_width="match_parent"
