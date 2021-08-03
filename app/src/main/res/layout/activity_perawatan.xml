@@ -26,15 +26,48 @@
         android:textStyle="bold"
         android:gravity="center_horizontal" />
 
-    <TextView
+        <TextView
+            android:id="@+id/prwtn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/deskprwtn1"
+            android:layout_marginTop="35dp"
+            android:layout_marginHorizontal="8dp"
+            android:justificationMode="inter_word"
+            android:text="1. Ganti Oli Secara Berkala"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/deskprwtn2"
+            android:layout_below="@+id/prwtn2"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="8dp"
+            android:justificationMode="inter_word"
+            android:text="Lakukan sesuai jadwal penggantian oli yang direkomendasikan mekanik. Bisa dengan melihat jarak tempuh sepeda motor matic apakah sudah mencapai 2000km atau 3000km maka oli sudah harus diganti, atau setiap 2 bulan sekali dan jangan lupa untuk menggunakan oli yang sesuai spesifikasi motor anda."
+            android:textSize="19sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_penggantianoli"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="8dp"
+            android:text="hitung waktu penggantian oli"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:backgroundTint="#03A9F4"/>
+
+        <TextView
         android:id="@+id/prwtn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/JudulPerawatan"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="20dp"
         android:layout_marginHorizontal="8dp"
         android:justificationMode="inter_word"
-        android:text="1. Rutin Panaskan Sepeda Motor di Pagi Hari"
+        android:text="2. Rutin Panaskan Sepeda Motor di Pagi Hari"
         android:textSize="19sp"
         android:textStyle="bold" />
     <TextView
@@ -46,28 +79,6 @@
         android:layout_marginHorizontal="8dp"
         android:justificationMode="inter_word"
         android:text="Sebaiknya menggunakan kick starter saja supaya lebih menghemat aki motor."
-        android:textSize="19sp"/>
-
-    <TextView
-        android:id="@+id/prwtn2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/deskprwtn1"
-        android:layout_marginTop="15dp"
-        android:layout_marginHorizontal="8dp"
-        android:justificationMode="inter_word"
-        android:text="2. Ganti Oli Secara Berkala"
-        android:textSize="19sp"
-        android:textStyle="bold" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/deskprwtn2"
-        android:layout_below="@+id/prwtn2"
-        android:layout_marginTop="5dp"
-        android:layout_marginHorizontal="8dp"
-        android:justificationMode="inter_word"
-        android:text="Lakukan sesuai jadwal penggantian oli yang direkomendasikan mekanik. Biasanya setiap 1000 km maks. 5000km atau setiap 2 sampai 3 bulan sekali dan menggunakan oli sesuai spesifikasi motor anda."
         android:textSize="19sp"/>
 
     <TextView
